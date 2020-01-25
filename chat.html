@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CHAT</title>
+</head>	
+<body>
+	<div class="parent">
+    	<div class="block"></div>
+    	<div class="block1" tabindex="0" contenteditable="true" role="textbox" aria-multiline="true"></div>
+    	<button class="block2" type="button">SUBMIT</button>
+	</div>
+</body>
+</html>
+
+<style type="text/css">
+.parent {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: auto;
+}
+
+.block {
+    width: 550px;
+    height: 700px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    border: 1px solid black;
+	border-top-left-radius: 30px;
+	border-top-right-radius: 5px;
+	background-color: lightgray;
+	outline: none;
+}
+.block1 {
+    width: 550px;
+    height: 85px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    border: 1px solid black;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 30px;
+	background-color: lightgray;
+	outline: none;
+}
+.block2 {
+    width: 70px;
+    height: 87px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 620px;
+    margin: auto;
+    border: 1px solid black;
+	border-radius: 15%;
+	border-bottom-left-radius: 0;
+	border-top-left-radius: 0;
+	background-color: lightgray;
+	outline: none;
+}
+</style>
